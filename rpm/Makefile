@@ -42,6 +42,7 @@ RPMBUILD_FLAGS?=-ba\
 # Additional flags may be necessary at some point
 RUN_FLAGS=
 RUN?=docker run --rm \
+    --security-opt seccomp=unconfined \
 	-e PLATFORM \
 	-v $(CURDIR)/rpmbuild/SOURCES:/root/rpmbuild/SOURCES:ro \
 	-v $(CURDIR)/rpmbuild/$@/RPMS:/root/rpmbuild/RPMS \
