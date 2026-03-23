@@ -41,13 +41,13 @@ DOCKER_CLI_REF     ?= $(REF)
 DOCKER_ENGINE_REF  ?= $(REF)
 # DOCKER_COMPOSE_REF is the version of compose to package. It usually is a tag,
 # but can be a valid git reference in DOCKER_COMPOSE_REPO.
-DOCKER_COMPOSE_REF ?= v5.0.0
+DOCKER_COMPOSE_REF ?= v5.1.1
 # DOCKER_BUILDX_REF is the version of compose to package. It usually is a tag,
 # but can be a valid git reference in DOCKER_BUILDX_REPO.
-DOCKER_BUILDX_REF  ?= v0.30.0
+DOCKER_BUILDX_REF  ?= v0.32.1
 # DOCKER_MODEL_REF is the version of model to package. It is usually a tag,
 # but can be a valid git reference in DOCKER_MODEL_REPO.
-DOCKER_MODEL_REF   ?= v0.1.39
+DOCKER_MODEL_REF   ?= v1.1.8
 
 # Use "stage" to install dependencies from download-stage.docker.com during the
 # verify step. Leave empty or use any other value to install from download.docker.com
