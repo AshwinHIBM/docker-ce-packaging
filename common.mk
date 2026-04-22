@@ -47,7 +47,7 @@ DOCKER_COMPOSE_REF ?= v5.0.2
 DOCKER_BUILDX_REF  ?= v0.30.0
 # DOCKER_MODEL_REF is the version of model to package. It is usually a tag,
 # but can be a valid git reference in DOCKER_MODEL_REPO.
-DOCKER_MODEL_REF   ?= v0.1.39
+DOCKER_MODEL_REF   ?= v1.1.8
 
 # Use "stage" to install dependencies from download-stage.docker.com during the
 # verify step. Leave empty or use any other value to install from download.docker.com
